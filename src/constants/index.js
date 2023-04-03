@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  reactjslg,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +55,23 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
+    icon: creator,
+  },
+  {
+    title: "ChatGPT AI Applications",
+    icon: web,
+  },
+  {
+    title: "Business Automations and Integrations",
+    icon: mobile,
+  },
+  {
+    title: "Wordpress and Other CMS",
+    icon: backend,
+  },
+  {
+    title: "Shopify/Ecommerce Store Design",
     icon: creator,
   },
 ];
@@ -117,9 +134,9 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    company_name: "Unival",
+    icon: reactjslg,
+    iconBg: "#fff",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -130,9 +147,9 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    company_name: "PixelsLAB",
+    icon: reactjslg,
+    iconBg: "#fff",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -156,9 +173,9 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    company_name: "FreeLance on Upwork & Fiverr",
+    icon: reactjslg,
+    iconBg: "#fff",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -172,7 +189,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Jogenius proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,8 +197,8 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Jogenius does.",
+    name: "Dr Chris",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
